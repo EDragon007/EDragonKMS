@@ -15,4 +15,6 @@
 使用管道符与`find`配合对输出版本号进行识别并使用`goto`指令跳转至相应的激活选项
 #### 2）选择合适的KMS密钥
 [Microsoft关于KMS的官方说明文档](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
-使用`set`指令设置各版本激活秘钥以方便在下一步执行
+通过`set`指令设置各版本激活秘钥以方便在下一步执行
+#### 尚未完成，更新中……
+#### Not finished yet, updating ...
