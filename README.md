@@ -1,12 +1,13 @@
 # EDragonKMS-Actbat(ghpymKMS)
 ### Ps:I`m not good at English sorry！
 # E_Dragon的KMS激活脚本（果核剥壳KMS）
-
+***
+## Overvier 概述
 ### Activate Windows&Office conveniently without virus
 ### 以一种没有病毒的方式轻松激活Windows&Office
 #### KMS activation is valid for 180 days, every 7 days will automatically try to activate to extend the validity
 #### KMS激活有效期为180天，每7天会自动尝试联网激活延长有效期
-
+***
 # README 中文版
 ## 一、原理
 ### 1.Windows的激活
