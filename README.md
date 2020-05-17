@@ -2,6 +2,10 @@
 ### Ps:I`m not good at English sorry！
 # E_Dragon的KMS激活脚本（果核剥壳KMS）
 ***
+## Downloads 下载
+[V3.0 Download link|V3.0下载链接](https://github.com/EDragon007/EDragonKMS-Actbat/releases/tag/3.0)
+[V3.0b-Sysprep Download link|V3.0b部署版下载链接](https://github.com/EDragon007/EDragonKMS-Actbat/releases/tag/3.0b-Sysprep)
+***
 ## Overvier 概述
 ### Activate Windows&Office conveniently without virus
 ### 以一种没有病毒的方式轻松激活Windows&Office
@@ -19,10 +23,10 @@
 ### 1.Windows的激活
 #### 1)检测Windows版本
 通过`ver`指令输出命令提示符的版本以识别Windows版本
-​使用管道符与`find`配合对输出版本号进行识别并使用`goto`指令跳转至相应的激活选项
+使用管道符与`find`配合对输出版本号进行识别并使用`goto`指令跳转至相应的激活选项
 #### 2)选择合适的KMS密钥
 [Microsoft关于KMS的官方说明文档](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
-​通过`set`指令设置各版本激活秘钥以方便在下一步执行，KMS密钥请见微软官方说明文档
+通过`set`指令设置各版本激活秘钥以方便在下一步执行，KMS密钥请见微软官方说明文档
 #### 3)激活
 从注册表中读取Windows版本以选择合适的密钥，如果版本信息吻合则会进行激活操作，反之则判断为不支持VOL的版本
 **注意：本操作不会卸载密钥和KMS服务器，而是直接进行覆盖，如有Bug请选择清除KMS激活后重启再试！**
