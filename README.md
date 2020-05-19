@@ -36,8 +36,8 @@
 #### 2)获取Office目录
 通过`set`参数定义32位系统和64位系统的Office目录，然后用`if`指令判断是32位还是64位并输出对应目录的路径
 #### 3)设置激活密钥（Office2016-2019）
-通过识别Office目录中的文件内容来确定许可证版本，并根据版本输入合适密钥给予下一步
 [Microsoft关于KMS激活Office的官方说明文档](https://docs.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
+通过识别Office目录中的文件内容来确定许可证版本，并根据版本输入合适密钥给予下一步
 #### 4)激活Office
 获取到Office目录并通过`cd`更改提示符的运行路径，运行Office目录下的`ospp.vbs`来使用KMS激活密钥激活Office
 ## 二、手动激活
