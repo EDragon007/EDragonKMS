@@ -25,7 +25,7 @@
 通过`ver`指令输出命令提示符的版本以识别Windows版本
 使用管道符与`find`配合对输出版本号进行识别并使用`goto`指令跳转至相应的激活选项
 #### 2)选择合适的KMS密钥
-[Microsoft关于KMS的官方说明文档](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
+[Microsoft关于KMS激活Windows的官方说明文档](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
 通过`set`指令设置各版本激活秘钥以方便在下一步执行，KMS密钥请见微软官方说明文档
 #### 3)激活
 从注册表中读取Windows版本以选择合适的密钥，如果版本信息吻合则会进行激活操作，反之则判断为不支持VOL的版本
@@ -35,6 +35,12 @@
 通过`call`指令调用获取Office目录的分支并输出Office的目录给激活Office的分支
 #### 2)获取Office目录
 通过`set`参数定义32位系统和64位系统的Office目录，然后用`if`指令判断是32位还是64位并输出对应目录的路径
-#### 3)设置激活密钥
+#### 3)设置激活密钥（Office2016-2019）
+通过识别Office目录中的文件内容来确定许可证版本，并根据版本输入合适密钥给予下一步
+[Microsoft关于KMS激活Office的官方说明文档](https://docs.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
+#### 4)激活Office
+获取到Office目录并通过`cd`更改提示符的运行路径，运行Office目录下的`ospp.vbs`来使用KMS激活密钥激活Office
+## 二、手动激活
+### 1.激活Windows
 #### 尚未完成，更新中……
 #### Not finished yet, updating ...
