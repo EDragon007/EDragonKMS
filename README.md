@@ -1,3 +1,8 @@
+
+
+# 本人正在学习C#，故暂停更新，日后可能更新C#版本！
+
+
 # EDragonKMS-Actbat(ghpymKMS)
 ### Ps:I`m not good at English sorry！
 # E_Dragon的KMS激活脚本（果核剥壳KMS）
